@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.Body {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.failure-container {
+  background-color: #f1f1f1;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.dark {
+  background-color: #212121;
+  background-size: cover;
+  color: #ffffff;
+}
+.light {
+  background-color: #ebebeb;
+  background-size: cover;
+  color: #000000;
+}
+.image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.heading {
+  font-size: 15px;
+}
+
+.description {
+  font-size: 10px;
+}
+@media (min-width: 768px) {
+  .image {
+    width: 250px;
+    height: 250px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .description {
+    font-size: 16px;
+  }
+}

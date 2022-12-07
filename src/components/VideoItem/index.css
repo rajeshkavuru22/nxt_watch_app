@@ -1,0 +1,75 @@
+.item-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.dark-theme {
+  color: #ffffff;
+}
+.light-theme {
+  color: #000000;
+}
+.Link {
+  text-decoration: none;
+}
+.thumbnail {
+  width: 100%;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin-top: 8px;
+}
+.logo-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.NAME {
+  font-weight: bold;
+  font-size: 12px;
+  text-align: start;
+}
+.channel-details-container {
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.channel {
+  margin-right: 15px;
+  font-weight: bold;
+}
+.list {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: disc;
+}
+.Item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .item-container {
+    width: 300px;
+    margin-right: 20px;
+  }
+}

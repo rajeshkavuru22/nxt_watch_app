@@ -1,0 +1,5 @@
+.Body-container {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+}
